@@ -1,0 +1,18 @@
+Pre-requiste to run the real-time simulation:
+
+- There is "Google Chrome" browser installed
+- There are program called "chromedriver.exe" in the ipynb notebook folder to capture html picture (provided for windows)
+- _roads_3.csv , BMMS_overview.xlsx, and RMMS folder need to be in ipynb notebook folder
+
+Instruction: 
+
+1. 	There are 2 ipynb file, the "visualization.ipynb" used to visualize the simio simulation every hour in simulation 
+	and "Bridge_Controller.ipynb" used to break a bridge while the simulation running.
+2.	Visualization part need to be run while the simulation is running with run time of 1000. "The last two cell" of this ipynb 
+	need to be in approximately the same time as the the simulation is running. So after user run the simio simulation, user need
+	to go directly to the "Visualization.ipynb" to run the "last two cell" of the jupyter notebook. As the simulation running, at
+	every 1 hour in the simulation, the python code will visualize the traffic with broken bridge (if it exists) at that particular
+	hour. And at the end of the simulation, user can see the recap of visualization for every hour.
+3.	On the other hand, the "Bridge_Controller.ipynb" can be run anytime the simulation run, with simio updating the bridge broken 
+	info from the database every hour of simulation. NOTES : The name need to be exactly the same as the one in simulation, therefore
+	"Simulation_all_bridges.html" is provided to navigate through which part of the bridge names belong to certain location.

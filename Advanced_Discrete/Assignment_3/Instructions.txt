@@ -1,0 +1,10 @@
+1. Change the path based on your directory on where you put the files, these are the file needed :
+	- _roads3.csv
+	- BMMS_overview.xls
+	- RMMS folder from RMMS.zip (extract with name of the folder RMMS)
+
+2. Results are in HTML and can be opened directly by your internet browser and its interactive, you can click on the roads, bridges, and choose which bridges to plot in the map
+3. Please make sure you open the file (html or ipynb) with internet connection!
+ 
+
+Further explanations and instructions are inside ipynb (jupyter notebook file)

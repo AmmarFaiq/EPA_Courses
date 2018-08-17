@@ -1,0 +1,12 @@
+# Instruction !!!!!!!
+
+- Before running the simulation, please install "prim" library. We strongly suggest not to run the experiments since it will take to run the whole code. 
+We advise to run the scipts with a file of our results of experiments to save time. To do this, please run all cell below the "perform experiments" that have "read" function inside.
+
+- Since all the script from the section 4 need the code from section 1 to 3 please run section 1 to three to perform the script for 
+section 4 onwards.
+
+NOTES:
+
+SINCE WE FORGOT THE SEED, FOR THE SECTION 4 ONWARDS, PLEASE USE THE FILE PROVIDED!!!. TO RUN SECTION 5 ONWARDS, JUST RUN FUNCTION WITH 
+"read_csv" to see the same results as the one in the report!
